@@ -6,6 +6,5 @@ current_dir=$(pwd)
 echo $current_dir;
 docker run \
 --name php-fpm \
--p 9001:9000 \
 -d php:fpm
 
