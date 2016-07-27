@@ -6,5 +6,6 @@ current_dir=$(pwd)
 echo $current_dir;
 docker run \
 --name php-fpm \
+-v $current_dir/../nginx/www:/var/www/html \
 -d php:fpm
 
