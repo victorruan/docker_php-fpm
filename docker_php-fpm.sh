@@ -8,5 +8,5 @@ docker run \
 --name php-fpm \
 -v $current_dir/../nginx/www:/var/www/html \
 -v $current_dir/conf:/usr/local/etc \
--d php:5.5-fpm
+-d php:fpm
 
